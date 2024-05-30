@@ -6,7 +6,7 @@ putMoney - кладёт средства на счёт
 
 takeMoney - списывает средства со счёта
 
-Класс UserController -  REST API для приложения
+Класс UserBalanceController -  REST API для приложения
 
 getOperation - возвращает список всех операций одного клиента
 
