@@ -12,4 +12,4 @@ getOperation - возвращает список всех операций од�
 
 getOperationList - возвращает список всех операций с выборкой по дате
 
-![db](https://github.com/Sergey-Danilov-uazoarzt/FinalProject/blob/main/db-final-project.png)
+![db](https://github.com/Sergey-Danilov-uazoarzt/FinalProject/blob/main/src/main/resources/images/db-final-project.png)
