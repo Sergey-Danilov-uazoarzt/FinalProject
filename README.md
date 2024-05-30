@@ -1,48 +1,15 @@
-# Банковское приложение
-## Структура проекта
-### controller
+# FinalProject
 
-`UserBalanceController` - REST Controller
+getBalance - возвращает текущий баланс пользователя
 
-### exception
-`GlobalExceptionHandling` - класс, предоставляющий функциональность Global Exception Handler-a<br>
-`IncorrectData` - тип объекта, который добавляется в HTTP Response Body<br>
-`NoSuchElementException` - exception, на который должен реагировать метод<br>
-`NotEnoughMiney` - exception, на который должен реагировать метод<br>
-`NegativeAmount` - exception, на который должен реагировать метод
+putMoney - кладёт средства на счёт
 
-### model
-`UserBalance` - pojo-класс UserBalance<br>
-`Operation` - pojo-класс Operation<br>
-`OperationType` - enum для Operation<br>
+takeMoney - списывает средства со счёта
 
-### repository
-`UserBalanceRepository` - слой DAO, для взаимодействия с БД<br>
-`OperationRepository` - слой DAO, для взаимодействия с БД
+Класс UserController -  REST API для приложения
 
-### service
-`OperationService`<br>
-`UserBalanceService`
+getOperation - возвращает список всех операций одного клиента
 
-### mapper
-`OperationMapper`<br>
-`UserBalanceMapper`
+getOperationList - возвращает список всех операций с выборкой по дате
 
-### dto
-`ErrorDTO`<br>
-`FieldErrorDTO`<br>
-`OperationDTO`<br>
-`UserBalanceDTO`
-
-### test
-`CommonTest`<br>
-`UserBalanceControllerTest` - класс для тестирования RestController
-
-#### application.property
-Файл для хранения параметров конфигурации приложения<br>
-#### Структура БД
-
-![Screenshot](https://github.com/AlinaMam/RESTapi_skillfactory/blob/master/src/main/resources/images/Структура%20БД.png)
-
-
-
+![db](https://github.com/Sergey-Danilov-uazoarzt/FinalProject/blob/main/db-final-project.png)
